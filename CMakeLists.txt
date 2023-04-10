@@ -6,8 +6,8 @@ set(${PROJECT_NAME}_VERSION 0.0.1)
 project(${PROJECT_NAME} VERSION ${${PROJECT_NAME}_VERSION})
 
 # Initialise conan stuff
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup(KEEP_RPATHS)
+#include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+#conan_basic_setup(KEEP_RPATHS)
 
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS YES CACHE BOOL "Export all symbols")
 set(CMAKE_VS_INCLUDE_INSTALL_TO_DEFAULT_BUILD 1)

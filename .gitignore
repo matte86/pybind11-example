@@ -34,3 +34,4 @@
 # Other folders
 build
 .vscode
+CMakeUserPresets.json
